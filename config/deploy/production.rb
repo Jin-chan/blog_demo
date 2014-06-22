@@ -12,4 +12,4 @@ server 'jinrow.cloudapp.net', user: 'JinrowMaker', roles: %w{web app db}, primar
 # the path to deploy to
 set :deploy_to, "/home/#{fetch(:deploy_user)}/apps/#{fetch(:full_app_name)}"
 # set to production for Rails
-set :rails_env, :production
+# set :rails_env, :production
